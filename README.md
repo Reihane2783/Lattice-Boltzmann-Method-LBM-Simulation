@@ -58,31 +58,19 @@ $$
 The equilibrium distribution is calculated using the standard low-Mach-number expansion:
 
 $$
-f_i^{eq}
-=
-w_i \rho
-\left[
-1
-+ 3(\mathbf{c}_i \cdot \mathbf{u})
-+ \frac{9}{2}(\mathbf{c}_i \cdot \mathbf{u})^2
-- \frac{3}{2}|\mathbf{u}|^2
-\right].
+f_i^{eq} = w_i \rho \left[ 1 + 3(\mathbf{c}_i \cdot \mathbf{u}) + \frac{9}{2}(\mathbf{c}_i \cdot \mathbf{u})^2 - \frac{3}{2}|\mathbf{u}|^2 \right]
 $$
 
 The BGK collision step is:
 
 $$
-f_i^*
-=
-(1-\omega)f_i
-+
-\omega f_i^{eq},
+f_i^* = (1-\omega)f_i + \omega f_i^{eq}
 $$
 
 where
 
 $$
-\omega = \frac{1}{\tau}.
+\omega = \frac{1}{\tau}
 $$
 ---
 
