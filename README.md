@@ -30,8 +30,9 @@ The simulation can also be run **without an obstacle** for comparison.
 
 The simulation uses the D2Q9 lattice:
 
-\[
+$$
 \mathbf{c}_i =
+\left[
 (0,0),
 (1,0),
 (0,1),
@@ -41,48 +42,48 @@ The simulation uses the D2Q9 lattice:
 (-1,1),
 (-1,-1),
 (1,-1)
-\]
+\right]
+$$
 
 with the standard D2Q9 lattice weights:
 
-\[
+$$
 w_0 = \frac{4}{9},
 \qquad
 w_{1-4} = \frac{1}{9},
 \qquad
 w_{5-8} = \frac{1}{36}.
-\]
+$$
 
 The equilibrium distribution is calculated using the standard low-Mach-number expansion:
 
-\[
+$$
 f_i^{eq}
 =
-w_i\rho
+w_i \rho
 \left[
 1
-+3(\mathbf{c}_i\cdot\mathbf{u})
-+\frac{9}{2}(\mathbf{c}_i\cdot\mathbf{u})^2
--\frac{3}{2}|\mathbf{u}|^2
++ 3(\mathbf{c}_i \cdot \mathbf{u})
++ \frac{9}{2}(\mathbf{c}_i \cdot \mathbf{u})^2
+- \frac{3}{2}|\mathbf{u}|^2
 \right].
-\]
+$$
 
 The BGK collision step is:
 
-\[
+$$
 f_i^*
 =
 (1-\omega)f_i
 +
 \omega f_i^{eq},
-\]
+$$
 
 where
 
-\[
+$$
 \omega = \frac{1}{\tau}.
-\]
-
+$$
 ---
 
 ## Simulation Parameters
