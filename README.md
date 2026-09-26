@@ -29,5 +29,3 @@ In this project, I simulate the flow of a fluid (like water) through a domain co
 - Blood flow in capillaries  
 - Airflow around buildings or vehicles  
 - Educational tool for CFD and statistical physics
-
-اگه خواستی می‌تونم برات کد پایه‌ای LBM بنویسم (مثلاً با شبکه D2Q9 و مانع دایره‌ای)، یا کمک کنم پروژه رو به صورت تعاملی در Jupyter Notebook اجرا کنی. آماده‌ای برای مرحله بعد؟
