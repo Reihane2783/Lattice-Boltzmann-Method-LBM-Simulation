@@ -69,9 +69,8 @@ $$
 
 where
 
-$$
-\omega = \frac{1}{\tau}
-$$
+$$\omega = \frac{1}{\tau}$$
+
 ---
 
 ## Simulation Parameters
